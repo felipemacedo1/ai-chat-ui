@@ -1,6 +1,8 @@
-# Chat AI Frontend
+# AI Chat UI
 
-Next.js frontend for the Chat AI application.
+Next.js frontend for the AI Chat Platform.
+
+Part of [ai-chat-platform](https://github.com/felipemacedo1/ai-chat-platform).
 
 ## Tech Stack
 
