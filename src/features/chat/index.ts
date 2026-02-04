@@ -1,3 +1,3 @@
 // Chat feature exports
-// Components, hooks, and orchestration will be exported here
-export {};
+export { useChat } from "./hooks/useChat";
+export { ChatLayout } from "./components/ChatLayout";
