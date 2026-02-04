@@ -76,8 +76,11 @@ function getSnapshot(): AuthState {
   return authState;
 }
 
+// Cache the server snapshot to avoid infinite loops
+const serverSnapshot: AuthState = { user: null, token: null, isLoading: true };
+
 function getServerSnapshot(): AuthState {
-  return { user: null, token: null, isLoading: true };
+  return serverSnapshot;
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
